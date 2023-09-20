@@ -3,7 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
-
+        task4();
     }
 
     public static int[] generateRandomArray() {
@@ -53,8 +53,18 @@ public class Main {
         double average = (double) sum / expenses.length;
         System.out.printf("Средняя сумма трат за месяц составила " + average + " рублей");
     }
-}
 
+    private static void task4(){
+        System.out.println();
+        System.out.println("Задача 4");
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+
+        System.out.println(reverseFullName);
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
+    }
+}
 
 
 
